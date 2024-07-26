@@ -25,7 +25,7 @@ class TextFieldWidget extends StatelessWidget {
         boxShadow: const [
           BoxShadow(
             color: Color(0x593366CC),
-            blurRadius: 20,
+            blurRadius: 25,
           ),
         ],
       ),
