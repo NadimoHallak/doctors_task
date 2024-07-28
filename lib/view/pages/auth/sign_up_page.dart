@@ -5,7 +5,10 @@ import 'package:google_fonts/google_fonts.dart';
 
 class SignUpPage extends StatelessWidget {
   SignUpPage({super.key});
-  TextEditingController phoneNumberController = TextEditingController();
+  TextEditingController usernameController = TextEditingController();
+  TextEditingController emailberController = TextEditingController();
+  TextEditingController passwordNumberController = TextEditingController();
+  TextEditingController confirmPasswordController = TextEditingController();
   InputBorder? inputBorder = OutlineInputBorder(
     borderRadius: BorderRadius.circular(10),
     borderSide: BorderSide.none,
@@ -37,7 +40,7 @@ class SignUpPage extends StatelessWidget {
                     height: 30,
                   ),
                   LableWithTextField(
-                    controller: phoneNumberController,
+                    controller: usernameController,
                     inputBorder: inputBorder,
                     title: 'User Name',
                     hintText: "username",
@@ -46,7 +49,7 @@ class SignUpPage extends StatelessWidget {
                     height: 15,
                   ),
                   LableWithTextField(
-                    controller: phoneNumberController,
+                    controller: emailController,
                     inputBorder: inputBorder,
                     title: 'Email',
                     hintText: "email",
@@ -55,7 +58,7 @@ class SignUpPage extends StatelessWidget {
                     height: 15,
                   ),
                   LableWithTextField(
-                    controller: phoneNumberController,
+                    controller: passwordController,
                     inputBorder: inputBorder,
                     title: 'Password',
                     hintText: "passwor",
@@ -65,7 +68,7 @@ class SignUpPage extends StatelessWidget {
                     height: 15,
                   ),
                   LableWithTextField(
-                    controller: phoneNumberController,
+                    controller: confirmPasswordController,
                     inputBorder: inputBorder,
                     title: 'Confirm your password',
                     hintText: "confirm password",
