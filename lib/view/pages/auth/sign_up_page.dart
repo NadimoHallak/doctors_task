@@ -6,8 +6,8 @@ import 'package:google_fonts/google_fonts.dart';
 class SignUpPage extends StatelessWidget {
   SignUpPage({super.key});
   TextEditingController usernameController = TextEditingController();
-  TextEditingController emailberController = TextEditingController();
-  TextEditingController passwordNumberController = TextEditingController();
+  TextEditingController emailController = TextEditingController();
+  TextEditingController passwordController = TextEditingController();
   TextEditingController confirmPasswordController = TextEditingController();
   InputBorder? inputBorder = OutlineInputBorder(
     borderRadius: BorderRadius.circular(10),
